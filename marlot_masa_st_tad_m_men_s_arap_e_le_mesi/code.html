@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+
+<html lang="tr"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"tertiary-fixed-dim":"#ffb2ba","on-secondary-fixed-variant":"#574500","on-primary-fixed":"#400012","secondary-fixed":"#ffe088","surface-container-lowest":"#ffffff","tertiary-container":"#620420","primary":"#3d0011","surface-bright":"#fff8f8","surface-dim":"#e1d8d9","on-surface":"#1e1b1c","surface-tint":"#984351","surface-container-high":"#efe6e7","primary-container":"#5b1324","on-error-container":"#93000a","on-primary":"#ffffff","error-container":"#ffdad6","surface":"#fff8f8","on-secondary-fixed":"#241a00","tertiary-fixed":"#ffd9dc","inverse-primary":"#ffb2bb","on-secondary":"#ffffff","on-tertiary-fixed-variant":"#842136","secondary-fixed-dim":"#e9c349","error":"#ba1a1a","tertiary":"#3d000f","outline":"#877274","on-tertiary-fixed":"#400011","outline-variant":"#dac1c2","secondary-container":"#fed65b","on-primary-fixed-variant":"#7a2b3b","surface-variant":"#e9e0e1","surface-container-low":"#fbf1f2","inverse-surface":"#342f30","surface-container-highest":"#e9e0e1","on-primary-container":"#dc7988","on-tertiary":"#ffffff","on-error":"#ffffff","primary-fixed":"#ffd9dd","primary-fixed-dim":"#ffb2bb","on-surface-variant":"#544244","background":"#fff8f8","on-secondary-container":"#745c00","on-background":"#1e1b1c","inverse-on-surface":"#f8eeef","on-tertiary-container":"#ea7082","surface-container":"#f5eced","secondary":"#735c00"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-xl":"3rem","space-lg":"1.75rem","margin-md":"2.5rem","space-xs":"0.25rem","gutter-lg":"2.5rem","space-md":"1rem","margin-lg":"4rem","gutter":"1.5rem","margin":"1.25rem","space-sm":"0.5rem"},"fontFamily":{"display":["Playfair Display"],"headline-lg":["Playfair Display"],"body-sm":["Plus Jakarta Sans"],"display-mobile":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Playfair Display"],"label-lg":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"headline-md":["Playfair Display"],"headline-sm":["Playfair Display"],"body-md":["Plus Jakarta Sans"]},"fontSize":{"display":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"400"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"400"}],"display-mobile":["38px",{"lineHeight":"46px","letterSpacing":"-0.01em","fontWeight":"400"}],"label-md":["11px",{"lineHeight":"14px","letterSpacing":"0.1em","fontWeight":"500"}],"body-lg":["18px",{"lineHeight":"30px","letterSpacing":"0.01em","fontWeight":"300"}],"headline-lg-mobile":["30px",{"lineHeight":"38px","letterSpacing":"0em","fontWeight":"400"}],"label-lg":["12px",{"lineHeight":"16px","letterSpacing":"0.12em","fontWeight":"600"}],"label-sm":["10px",{"lineHeight":"12px","letterSpacing":"0.14em","fontWeight":"500"}],"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"500"}],"headline-sm":["22px",{"lineHeight":"30px","letterSpacing":"0em","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-margin md:px-margin-md lg:px-margin-lg flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg"><a class="flex flex-col text-left group" data-path="anasayfa" href="#"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">MARLOT</span><span class="font-label-sm text-label-sm text-secondary tracking-widest uppercase">Kuruçeşme • Boğaz</span></a></div><nav class="hidden xl:flex items-center gap-space-md 2xl:gap-space-lg" data-active-classes="text-primary font-semibold border-b border-secondary pb-0.5"><a class="font-label-lg text-label-lg uppercase text-on-surface-variant hover:text-primary transition-colors py-1" data-path="anasayfa" href="#">Anasayfa</a><a class="font-label-lg text-label-lg uppercase text-on-surface-variant hover:text-primary transition-colors py-1" data-path="menu" href="#">Menü</a><a class="font-label-lg text-label-lg uppercase text-on-surface-variant hover:text-primary transition-colors py-1" data-path="tadim-menusu" href="#">Tadım Menüsü</a><a class="font-label-lg text-label-lg uppercase text-on-surface-variant hover:text-primary transition-colors py-1" data-path="sarap-kavi" href="#">Şarap Kavı</a><a class="font-label-lg text-label-lg uppercase text-on-surface-variant hover:text-primary transition-colors py-1" data-path="hakkimizda" href="#">Hakkımızda</a><a class="font-label-lg text-label-lg uppercase text-on-surface-variant hover:text-primary transition-colors py-1" data-path="basinda-biz" href="#">Basında Biz</a><a class="font-label-lg text-label-lg uppercase text-on-surface-variant hover:text-primary transition-colors py-1" data-path="iletisim" href="#">İletişim</a></nav><div class="flex items-center gap-space-md"><a class="hidden md:flex flex-col text-right pr-space-sm" href="tel:+902122874000"><span class="font-label-sm text-label-sm uppercase text-on-surface-variant tracking-wider">Konsiyerj</span><span class="font-body-sm text-body-sm text-on-surface font-medium">+90 212 287 40 00</span></a><a class="inline-flex items-center justify-center bg-primary-container text-on-primary hover:bg-primary font-label-lg text-label-lg uppercase tracking-wider px-space-md lg:px-space-lg py-2.5 rounded-lg transition-all shadow-[0_4px_16px_rgba(91,19,36,0.12)]" data-path="masa-rezervasyonu" href="#">Masa Rezervasyonu</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center ml-space-xs"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-5rem)]"><div class="flex flex-col w-full">
+<!-- Immersive Degustation Hero with Header Underbleed -->
+<section class="relative w-full -mt-20 overflow-hidden bg-primary text-on-primary">
+<div class="absolute inset-0 bg-cover bg-center opacity-30 mix-blend-luminosity scale-105 transition-transform duration-1000 ease-out" data-alt="Intimate candlelit luxury fine dining tasting room inside a 19th-century Istanbul waterfront mansion, dark burgundy velvet accents, sparkling hand-blown Riedel crystal wine glasses with deep red wine, soft ambient warm glow reflecting off dark walnut tables and polished brass architectural details, cinematic haute-gastronomy atmosphere." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCczo8KN56dfNOtRF9ZEer1yOWGbZw2MqGW03a3_PbdojPHVCceHVyK8KA0nPS2mPR4OJMunYkAIjBHTXryiXSKYQ9jb800EC9fMeDVZU2bCCv5lS31sZG64BEl9PX2NDDHHg2DELvJle0MZ0rqEmfpd7M6yV8zthi9oCiH8o-7ZPW7YKzp90HNMCjrilOegp5hHded-xr_2vnlARwDHa54b-zcV8GC8eLDlwPFlUV4')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/80 to-transparent"></div>
+<div class="absolute -right-32 -bottom-32 w-96 h-96 rounded-full bg-secondary/10 blur-3xl pointer-events-none"></div>
+<div class="relative max-w-7xl mx-auto px-margin md:px-margin-md lg:px-margin-lg pt-36 pb-space-xl flex flex-col gap-space-lg">
+<div class="flex flex-col gap-space-sm max-w-3xl">
+<div class="flex items-center gap-space-sm">
+<span class="w-8 h-[1px] bg-secondary"></span>
+<span class="font-label-md text-label-md uppercase text-secondary tracking-widest">Kuruçeşme Degustasyon Ritüeli</span>
+</div>
+<h1 class="font-display text-display text-on-primary tracking-tight">
+          Zamanın ve Damak Tadının Ötesinde: <span class="italic text-secondary-fixed">Marlot Degustasyon</span>
+</h1>
+<p class="font-body-lg text-body-lg text-primary-fixed-dim font-light leading-relaxed max-w-2xl mt-space-xs">
+          Executive Chef Kenan Erdem ve Baş Sommelier Denis Arslan iş birliğiyle hazırlanan, Boğaz’ın mikro-iklimi ile dünya şarap mirasını buluşturan 7 aşamalı duyusal yolculuk.
+        </p>
+</div>
+<!-- Quick Action / Sommelier Note Bar -->
+<div class="flex flex-wrap items-center justify-between gap-space-md pt-space-md">
+<div class="flex items-center gap-space-lg">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">verified</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase text-secondary tracking-wider">Kürasyon</span>
+<span class="font-body-sm text-body-sm text-on-primary font-medium">Kenan Erdem × Denis Arslan</span>
+</div>
+</div>
+<div class="hidden sm:block w-[1px] h-8 bg-primary-container"></div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">wine_bar</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase text-secondary tracking-wider">Kadeh Serisi</span>
+<span class="font-body-sm text-body-sm text-on-primary font-medium">Riedel Sommeliers Black Series</span>
+</div>
+</div>
+</div>
+<a class="inline-flex items-center gap-space-sm bg-secondary text-on-secondary-fixed hover:bg-secondary-fixed font-label-lg text-label-lg uppercase tracking-wider px-space-lg py-3 rounded-lg shadow-xl transition-all" href="#rezervasyon-alani">
+<span>Degustasyon Rezervasyonu</span>
+<span class="material-symbols-outlined text-[16px]">arrow_downward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- 4-Stat Cards Banner (Spacious Elevated Overview) -->
+<section class="w-full -mt-10 relative z-10">
+<div class="max-w-7xl mx-auto px-margin md:px-margin-md lg:px-margin-lg">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter bg-surface-container-low p-space-md lg:p-space-lg rounded-xl shadow-xl">
+<!-- Stat 1 -->
+<div class="flex flex-col gap-space-xs p-space-md bg-surface rounded-lg">
+<div class="flex items-center justify-between text-secondary">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">Deneyim Süresi</span>
+<span class="material-symbols-outlined text-[20px]">hourglass_top</span>
+</div>
+<span class="font-headline-md text-headline-md text-primary mt-space-xs">~2.5 – 3 Saat</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Sakin tempolu, ritmik servis akışı</span>
+</div>
+<!-- Stat 2 -->
+<div class="flex flex-col gap-space-xs p-space-md bg-surface rounded-lg">
+<div class="flex items-center justify-between text-secondary">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">Oturum Saatleri</span>
+<span class="material-symbols-outlined text-[20px]">schedule</span>
+</div>
+<span class="font-headline-md text-headline-md text-primary mt-space-xs">19:30 • 21:00</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Her seans azami 24 seçkin konuk</span>
+</div>
+<!-- Stat 3 -->
+<div class="flex flex-col gap-space-xs p-space-md bg-surface rounded-lg">
+<div class="flex items-center justify-between text-secondary">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">7 Aşamalı Menü</span>
+<span class="material-symbols-outlined text-[20px]">restaurant</span>
+</div>
+<span class="font-headline-md text-headline-md text-primary mt-space-xs">₺4.850</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Kişi başı degüstasyon fiyatı</span>
+</div>
+<!-- Stat 4 -->
+<div class="flex flex-col gap-space-xs p-space-md bg-surface rounded-lg">
+<div class="flex items-center justify-between text-secondary">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Küratörlü Eşleşmeler</span>
+<span class="material-symbols-outlined text-[20px]">liquor</span>
+</div>
+<div class="flex items-baseline gap-space-xs mt-space-xs">
+<span class="font-headline-sm text-headline-sm text-primary">₺3.400</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Grand Cru</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Alternatif: Alkolsüz Botanik ₺1.800</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Degustation Progression (7-Course Experience Journey) -->
+<section class="w-full py-space-xl">
+<div class="max-w-7xl mx-auto px-margin md:px-margin-md lg:px-margin-lg flex flex-col gap-space-xl">
+<!-- Section Intro & Course Tracker Ribbon -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary">Sıralı Degüstasyon Kronolojisi</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">7 Aşamalı Duyu Senfonisi</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+            Tarihsel Boğaz balıkçılığından Fransa'nın Premier Grand Cru teruarlarına uzanan, her tabağın özel kadehiyle sunulduğu gastronomik kurgu.
+          </p>
+</div>
+<!-- Course Stepper Visual Pills -->
+<div class="hidden lg:flex items-center gap-space-xs p-1 bg-surface-container rounded-lg">
+<button class="course-nav-pill px-3 py-1.5 rounded font-label-sm text-label-sm uppercase tracking-wider bg-primary text-on-primary transition-all" onclick="focusCourse(1)" type="button">01 Amuse</button>
+<button class="course-nav-pill px-3 py-1.5 rounded font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-primary transition-all" onclick="focusCourse(2)" type="button">02 Soğuk</button>
+<button class="course-nav-pill px-3 py-1.5 rounded font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-primary transition-all" onclick="focusCourse(3)" type="button">03 Sıcak</button>
+<button class="course-nav-pill px-3 py-1.5 rounded font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-primary transition-all" onclick="focusCourse(4)" type="button">04 Deniz</button>
+<button class="course-nav-pill px-3 py-1.5 rounded font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-primary transition-all" onclick="focusCourse(5)" type="button">05 Sorbe</button>
+<button class="course-nav-pill px-3 py-1.5 rounded font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-primary transition-all" onclick="focusCourse(6)" type="button">06 Kara</button>
+<button class="course-nav-pill px-3 py-1.5 rounded font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-primary transition-all" onclick="focusCourse(7)" type="button">07 Final</button>
+</div>
+</div>
+<!-- Course Stack (Alternating Luxury Split Rows) -->
+<div class="flex flex-col gap-space-lg">
+<!-- Course 1 -->
+<article class="group relative grid grid-cols-1 lg:grid-cols-12 bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" id="course-card-1">
+<div class="lg:col-span-5 relative h-72 lg:h-auto overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transform group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Exquisite amuse-bouche culinary dish named Bogaz Incisi with crisp nori seaweed cracker, edible gold leaf, translucent sea-salted emulsion and micro herbs on a handcrafted dark textured stoneware plate, warm atmospheric fine dining lighting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAfkFah_B0MS48C4gX6wpkrD8WxvFUMjF76iSRDwyVD9Kx7HW_OlUyEKX8kWpaWxMkhPJ38UA8O5moNxqjuOkXEwMWTkUNZAhJ3qeZi7L09SJqgiRlxCzWhes9seVdkXH6jAojAeaVs_2NUvaZ5oZfuzQ1ovfYeOw0-43NHhgXZ9xrVZOrhJ8CmI_R8jS2zllJ4tg9sZpa-IOro7b59awGmX71N8n42YoOw5J8Rs7jy')">
+</div>
+<div class="absolute top-4 left-4 bg-primary text-on-primary font-label-sm text-label-sm px-3 py-1 rounded-full uppercase tracking-widest">
+              Aşama 01 • Başlangıç
+            </div>
+</div>
+<div class="lg:col-span-7 p-space-md lg:p-space-lg flex flex-col justify-between gap-space-md bg-surface-container-low">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-medium">Açılış Notası • Deniz Tuzluluğu</span>
+<span class="font-label-md text-label-md text-outline">Seans Başlangıcı: +00 dk</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">Boğaz İncisi &amp; Yosun Cipsi</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Marmara derin sularından elde edilen deniz tuzu köpüğü, kurutulmuş çıtır Karadeniz yosunu cipsi üzerinde palamut kreması ve füme incir sirkesi damlalarıyla sunulur. Damak dokusunu uyanışa hazırlar.
+              </p>
+</div>
+<!-- Wine Pairing Callout -->
+<div class="p-space-md bg-surface rounded-lg flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm shadow-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">wine_bar</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Grand Cru Şarap Eşleşmesi</span>
+<span class="font-headline-sm text-headline-sm text-primary">Champagne Blanc de Blancs Grand Cru ‘15</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Avize • Côte des Blancs | %100 Chardonnay • İpeksi köpük, kireçtaşı mineralitesi</span>
+</div>
+</div>
+<span class="inline-flex items-center font-label-sm text-label-sm text-primary uppercase font-semibold bg-surface-container px-2.5 py-1 rounded">Riedel Veritas</span>
+</div>
+</div>
+</article>
+<!-- Course 2 -->
+<article class="group relative grid grid-cols-1 lg:grid-cols-12 bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" id="course-card-2">
+<div class="lg:col-span-7 p-space-md lg:p-space-lg flex flex-col justify-between gap-space-md bg-surface-container-low order-2 lg:order-1">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-medium">Soğuk Başlangıç • Taze Narenciye</span>
+<span class="font-label-md text-label-md text-outline">Seans Başlangıcı: +25 dk</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">Hafif Tütsülenmiş Akdeniz Karidesi</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Zeytin odunu dumanıyla 42 derecede soğuk tütsülenmiş kırmızı karides gövdesi, Bodrum mandalinası jölesi, deniz börülcesi emülsiyonu ve fındık yağı infüzyonlu çıtır rezene dilimleri.
+              </p>
+</div>
+<!-- Wine Pairing Callout -->
+<div class="p-space-md bg-surface rounded-lg flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm shadow-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">wine_bar</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Grand Cru Şarap Eşleşmesi</span>
+<span class="font-headline-sm text-headline-sm text-primary">Loire Valley Pouilly-Fumé ‘20</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Domaine Didier Dagueneau | Çakmaktaşı füme tonları, diri asidite</span>
+</div>
+</div>
+<span class="inline-flex items-center font-label-sm text-label-sm text-primary uppercase font-semibold bg-surface-container px-2.5 py-1 rounded">Riedel Performance</span>
+</div>
+</div>
+<div class="lg:col-span-5 relative h-72 lg:h-auto overflow-hidden order-1 lg:order-2">
+<div class="w-full h-full bg-cover bg-center transform group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Lightly smoked red Mediterranean prawn plated with glossy citrus glaze, translucent sea fennel gel drops and edible purple flower garnishes on a pristine pale ceramic shallow bowl in modern Michelin star culinary presentation." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAwk-VaDoUSWWRH-CHUOA3r3Ql-D4R5QfJN6YCdyOBk5xrT8Upm9a3Qp1Y2lBYlPXhQ-3t-2ArzF5vJYnNZkT9riOy7GjxUQHMTStp_mrxJwUZChtZxnMymzENIfp-FImYD_PX7eNVpC9_KeW16twEqhxYLbUsAsgP1iRTESvDGFMAsuVX0-5Y-9JIgqzg5zs9fozZ7uXBlfGZ8kX278yDnaHbGNyty51s3klfjRG1a')">
+</div>
+<div class="absolute top-4 right-4 bg-primary text-on-primary font-label-sm text-label-sm px-3 py-1 rounded-full uppercase tracking-widest">
+              Aşama 02 • Soğuk
+            </div>
+</div>
+</article>
+<!-- Course 3 -->
+<article class="group relative grid grid-cols-1 lg:grid-cols-12 bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" id="course-card-3">
+<div class="lg:col-span-5 relative h-72 lg:h-auto overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transform group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Handcrafted delicate duck ravioli topped with rich shaved black Perigord truffle shavings, glossy poultry jus reduction and micro herbs, presented in an elegant warm cream porcelain dish with moody candle reflection." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAqns730zUC7hydDAfDJz8tVgBVbLPbeq2WoI2fI6pNE2YAFlrfFCs42DwltuMGuwu6xt2C8T4xeVNrmsHjmRTkPm02SmiNybH9ZZyE3rhQSO6dM_bJDJ5GbPpvGifAxvq3lkemYeEmw1nWcp050m7bxdNLLQjkOy37EI7udkURpouhM8vmSxhHNDHS4Ygze8N7FhhJTBwFXWOllWA1w51uaYjt9DTxGUT_QmHPZc-e')">
+</div>
+<div class="absolute top-4 left-4 bg-primary text-on-primary font-label-sm text-label-sm px-3 py-1 rounded-full uppercase tracking-widest">
+              Aşama 03 • Sıcak
+            </div>
+</div>
+<div class="lg:col-span-7 p-space-md lg:p-space-lg flex flex-col justify-between gap-space-md bg-surface-container-low">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-medium">Sıcak Başlangıç • Topraksı Derinlik</span>
+<span class="font-label-md text-label-md text-outline">Seans Başlangıcı: +50 dk</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">Trüflü Ördek Ravioli</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Trakya ördek konfisi ile doldurulmuş el açması ipeksi makarna hamuru, 36 aylık Kars gravyeri köpüğü, taze rendelenmiş siyah kış trüfü ve ördek kemiği konsomesi.
+              </p>
+</div>
+<!-- Wine Pairing Callout -->
+<div class="p-space-md bg-surface rounded-lg flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm shadow-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">wine_bar</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Grand Cru Şarap Eşleşmesi</span>
+<span class="font-headline-sm text-headline-sm text-primary">Bourgogne Pinot Noir Vieilles Vignes ‘18</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Côte de Nuits • Yaşlı asmalar | Yabani çilek, orman altı baharatları</span>
+</div>
+</div>
+<span class="inline-flex items-center font-label-sm text-label-sm text-primary uppercase font-semibold bg-surface-container px-2.5 py-1 rounded">Riedel Sommeliers</span>
+</div>
+</div>
+</article>
+<!-- Course 4 -->
+<article class="group relative grid grid-cols-1 lg:grid-cols-12 bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" id="course-card-4">
+<div class="lg:col-span-7 p-space-md lg:p-space-lg flex flex-col justify-between gap-space-md bg-surface-container-low order-2 lg:order-1">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-medium">Denizden • Boğaz Mirası</span>
+<span class="font-label-md text-label-md text-outline">Seans Başlangıcı: +1 sa 15 dk</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">Kömür Ateşinde Karadeniz Kalkanı</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Meşe kömürü ızgarasında dinlendirilerek pişirilen yerli kalkan balığı filesi, fırınlanmış kereviz pürüsü, safranlı kalkan kemiği beurre blanc sos ve Ege enginarı kalbi.
+              </p>
+</div>
+<!-- Wine Pairing Callout -->
+<div class="p-space-md bg-surface rounded-lg flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm shadow-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">wine_bar</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Grand Cru Şarap Eşleşmesi</span>
+<span class="font-headline-sm text-headline-sm text-primary">Puligny-Montrachet Domaine Leflaive ‘19</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Burgundy • Côte de Beaune | Kremamsı fındık, ıhlamur ve asil asidite</span>
+</div>
+</div>
+<span class="inline-flex items-center font-label-sm text-label-sm text-primary uppercase font-semibold bg-surface-container px-2.5 py-1 rounded">Riedel Vinum</span>
+</div>
+</div>
+<div class="lg:col-span-5 relative h-72 lg:h-auto overflow-hidden order-1 lg:order-2">
+<div class="w-full h-full bg-cover bg-center transform group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Crispy skinned Black Sea Turbot fillet gently rested over velvety saffron beurre blanc sauce, golden artichoke heart petals, fine culinary plating on a charcoal grey matte bespoke dish." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBuD9pjP3tWOXw3B811Ql3K83ENPBgskZV9VzkRIzd9ZoF1lwX0ZuBvEBI63AMO_VVy3cCKleWRKoG7YYNSCYk1CirV91mP-tinvJmntoOzE7aHig21ldq6A0wiUf4rAoFi0GGCYUiwMvXKGnR8Ym3z60XTEO-pzus3BJTX_KzUGZ1lFjVaKgPfS_TlizaXIInLKyXJBYWcnni5YkAGwCb5LUHMydK1RaFAd0sH84TP')">
+</div>
+<div class="absolute top-4 right-4 bg-primary text-on-primary font-label-sm text-label-sm px-3 py-1 rounded-full uppercase tracking-widest">
+              Aşama 04 • Deniz
+            </div>
+</div>
+</article>
+<!-- Course 5 (Intermezzo / Palate Cleanser Special Highlight) -->
+<article class="relative overflow-hidden bg-gradient-to-r from-primary-container to-primary text-on-primary p-space-md lg:p-space-lg rounded-xl shadow-md" id="course-card-5">
+<div class="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 rounded-full bg-secondary/15 blur-2xl"></div>
+<div class="relative grid grid-cols-1 lg:grid-cols-12 gap-space-md items-center">
+<div class="lg:col-span-8 flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-secondary-fixed">
+<span class="material-symbols-outlined text-[18px]">spa</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest">Aşama 05 • Damak Temizleyici Intermezzo</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-primary">Yaban Mersini &amp; Dağ Kekiği Sorbe</h3>
+<p class="font-body-md text-body-md text-primary-fixed-dim leading-relaxed max-w-2xl">
+                Kaz Dağları’ndan toplanan yabani kekik esansı ve Karadeniz yaban mersiniyle hazırlanan hafif buzlu sorbe; masada sunulan kuru buz üzerinde organik Isparta lavantası sisi eşliğinde servis edilir.
+              </p>
+</div>
+<div class="lg:col-span-4 flex flex-col lg:items-end justify-center">
+<div class="p-space-md bg-primary/40 backdrop-blur rounded-lg flex flex-col gap-1 w-full lg:max-w-xs text-left">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Eşlik Eden İnfüzyon</span>
+<span class="font-body-md text-body-md text-on-primary font-medium">Soğuk Damıtılmış Lavanta &amp; Narenciye Tonik</span>
+<span class="font-label-sm text-label-sm text-primary-fixed-dim">Alkol içermez • Duyu sıfırlama kadehi</span>
+</div>
+</div>
+</div>
+</article>
+<!-- Course 6 -->
+<article class="group relative grid grid-cols-1 lg:grid-cols-12 bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" id="course-card-6">
+<div class="lg:col-span-5 relative h-72 lg:h-auto overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transform group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Miyazaki Wagyu A5 tenderloin cut with rich marble texture and deeply caramelized bone marrow glaze, accompanied by slow-roasted morel mushroom and glossy demi-glace streak on bespoke dark pottery." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDvRvOn2_YErUWeS1p0XhXI2WfVJDKtwHAeD39JwDTCLcN2Yp7_XaOakesWu2ittAVxoDUsg_dp76SgidyZif1tLUE-Qt2HVy7zo4xKGwdDEsAoxfrvNGKrPowhn0fuYeicGd8JFhj0gUPvDQaAWA8l9Or9Tbou_v7aqN0V99UhKq3J4UtOCjJD6ljNbAkZI2TOj8fHrKtJec2QH5CuP4ayL-R7U5R8dsV7_iWTG_u_')">
+</div>
+<div class="absolute top-4 left-4 bg-primary text-on-primary font-label-sm text-label-sm px-3 py-1 rounded-full uppercase tracking-widest">
+              Aşama 06 • Karadan Ana Tabak
+            </div>
+</div>
+<div class="lg:col-span-7 p-space-md lg:p-space-lg flex flex-col justify-between gap-space-md bg-surface-container-low">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-medium">Zirve Notası • Gövdeli Yoğunluk</span>
+<span class="font-label-md text-label-md text-outline">Seans Başlangıcı: +1 sa 45 dk</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">Wagyu A5 &amp; Kemik İliği Glaze</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Japon Miyazaki A5 mermersi sığır sırtı, 48 saatlik kemik iliği ve yabani kuzu göbeği mantarı demi-glaze sosu, çıtır kudüs enginarı kökü ve tütsülü deniz tuzu kristalleri.
+              </p>
+</div>
+<!-- Wine Pairing Callout -->
+<div class="p-space-md bg-surface rounded-lg flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm shadow-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">wine_bar</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Grand Cru Şarap Eşleşmesi</span>
+<span class="font-headline-sm text-headline-sm text-primary">Château Margaux Premier Grand Cru ‘12</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Bordeaux • Margaux | Sedir ağacı, menekşe, kadife tanenler ve sonsuz bitiş</span>
+</div>
+</div>
+<span class="inline-flex items-center font-label-sm text-label-sm text-primary uppercase font-semibold bg-surface-container px-2.5 py-1 rounded">Riedel Bordeaux</span>
+</div>
+</div>
+</article>
+<!-- Course 7 -->
+<article class="group relative grid grid-cols-1 lg:grid-cols-12 bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300" id="course-card-7">
+<div class="lg:col-span-7 p-space-md lg:p-space-lg flex flex-col justify-between gap-space-md bg-surface-container-low order-2 lg:order-1">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-medium">Tatlı Final • Altın Armoni</span>
+<span class="font-label-md text-label-md text-outline">Seans Başlangıcı: +2 sa 15 dk</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">Kakao &amp; Altın Yapraklı Çikolata Senfonisi</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                %72 Valrhona Guanaja tek köken bitter çikolata ganajı, tütsülü Madagaskar vanilyası dondurması, 24 ayar yenilebilir saf altın yaprakları ve çıtır tuzlu karamel kıtırları.
+              </p>
+</div>
+<!-- Wine Pairing Callout -->
+<div class="p-space-md bg-surface rounded-lg flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm shadow-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">wine_bar</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Grand Cru Şarap Eşleşmesi</span>
+<span class="font-headline-sm text-headline-sm text-primary">Château d’Yquem Sauternes ‘16</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Bordeaux • Sauternes | Bal, kuru kayısı, portakal çiçeği ve asil küf dengesi</span>
+</div>
+</div>
+<span class="inline-flex items-center font-label-sm text-label-sm text-primary uppercase font-semibold bg-surface-container px-2.5 py-1 rounded">Riedel Sauternes</span>
+</div>
+</div>
+<div class="lg:col-span-5 relative h-72 lg:h-auto overflow-hidden order-1 lg:order-2">
+<div class="w-full h-full bg-cover bg-center transform group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Sculptural fine dining dessert dome of dark glossy chocolate adorned with flakes of 24k edible gold leaf, warm vanilla ice cream quenelle and salted caramel spun sugar accents on a black marble platter." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAiRCajjIC4tm6TsyaN0I0wsj6rKPspuz2PCybx9t0mK4rE-oz6G-hesq2Z23kwheGXZu9Q435S4VZ0YAyY3JtxN2qb5W4TEL5GUsKcxhT6GnJJHR8eKp6yaHTiYwy6c01iCt6jMCZZ4-daO3limvrnKepL6AnVMWGwTJiz6pJ3jJU_97d507_UxZWpD4HBZ4jEPZ_FnWEQhzKRxEhhGUzjfdHzLqEuKjsKYbVKlFdA')">
+</div>
+<div class="absolute top-4 right-4 bg-primary text-on-primary font-label-sm text-label-sm px-3 py-1 rounded-full uppercase tracking-widest">
+              Aşama 07 • Final
+            </div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Head Sommelier Denis Arslan Feature & Cellar Philosophy Section -->
+<section class="w-full py-space-xl bg-surface-container-low relative overflow-hidden">
+<div class="max-w-7xl mx-auto px-margin md:px-margin-md lg:px-margin-lg">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-center">
+<!-- Sommelier Cellar Portrait -->
+<div class="lg:col-span-5 relative">
+<div class="relative w-full h-[480px] rounded-xl overflow-hidden shadow-2xl">
+<div class="w-full h-full bg-cover bg-center" data-alt="Distinguished Head Sommelier Denis Arslan in tailored dark suit inspecting an aged vintage wine bottle inside a dim vaulted brick cellar filled with thousands of horizontally stacked prestigious bottles and subtle warm tungsten spotlighting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDtIwBNvSiUfW1kjM5Ac3AouIYYkj8_l8kaj0IoP4Fo4aPeUAFEDVdCq5YLN42Pmw2z4Fce7BpSbNFcqvPXOjvxGM_KKFTkYtkF-W1L0k60ab33s9ZK0omfIGh32VWzpOmqstfRHL67J5qEhbCVFnTfO7N2u1g5-HBBa0gVY4MR43pJyztXvePpAL1fFRiqd5uceHEhk-5n66oqF6TcEZlD2AfUYow27m_5GlbrXyYG')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 text-on-primary">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary block">Kav Direktörü &amp; Baş Sommelier</span>
+<span class="font-headline-sm text-headline-sm">Denis Arslan</span>
+<span class="font-body-sm text-body-sm text-primary-fixed-dim block mt-0.5">Court of Master Sommeliers Advanced Certified</span>
+</div>
+</div>
+<!-- Floating Badge -->
+<div class="absolute -top-4 -right-4 bg-surface p-space-md rounded-xl shadow-xl flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[28px]">award_star</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">1200+ Rekolte</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">Bespoke Mahzen Koleksiyonu</span>
+</div>
+</div>
+</div>
+<!-- Sommelier Philosophy & Riedel Stemware Curation -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary">Küratörün Notu • Mahzen Felsefesi</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">
+              “Bir şarap eşleşmesi yalnızca tabağa eşlik etmez; onun gizli aromatik boyutlarını açığa çıkarır.”
+            </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Marlot’un Boğaz su seviyesinin 4 metre altındaki tarihi kârgir mahzeni, sabit 13°C sıcaklık ve %72 nem dengesinde saklanan 1200’ü aşkın nadir etikete ev sahipliği yapar. Degustasyon menümüzde sunduğumuz her şişe, tabağın ısı derecesine göre dekante edilir ve yalnızca Avusturya üretimi el yapımı <strong>Riedel Sommeliers</strong> serisi kadehlerde kristalin saflığıyla sunulur.
+          </p>
+<!-- 3-Column Highlights -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm pt-space-xs">
+<div class="p-space-sm bg-surface rounded-lg flex flex-col gap-1 shadow-sm">
+<span class="font-headline-sm text-headline-sm text-primary">13°C / %72</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-medium">İklim Kontrollü Mahzen</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tarihi Boğaz nem dengesinde korunan rekolteler.</p>
+</div>
+<div class="p-space-sm bg-surface rounded-lg flex flex-col gap-1 shadow-sm">
+<span class="font-headline-sm text-headline-sm text-primary">Riedel</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-medium">El Yapımı Kristal</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Üzüm çeşidine özel üretilmiş akustik kadehler.</p>
+</div>
+<div class="p-space-sm bg-surface rounded-lg flex flex-col gap-1 shadow-sm">
+<span class="font-headline-sm text-headline-sm text-primary">Coravin™</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-medium">Argon Korumalı Servis</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Premier Grand Cru şişeler oksijen temassız dökülür.</p>
+</div>
+</div>
+<div class="pt-space-xs flex items-center gap-space-md">
+<a class="inline-flex items-center gap-space-xs font-label-lg text-label-lg uppercase tracking-wider text-primary hover:text-secondary transition-colors" data-path="sarap-kavi" href="#">
+<span>Şarap Kavı Tam Kataloğunu İnceleyin (PDF • 48 Sayfa)</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Non-Alcoholic Botanical Pairing Showcase (Editorial Contrast Box) -->
+<section class="w-full py-space-lg">
+<div class="max-w-7xl mx-auto px-margin md:px-margin-md lg:px-margin-lg">
+<div class="bg-surface-container rounded-xl p-space-md lg:p-space-lg flex flex-col md:flex-row items-center justify-between gap-space-lg">
+<div class="flex items-start gap-space-md">
+<div class="w-12 h-12 rounded-full bg-secondary/20 text-secondary flex items-center justify-center shrink-0 mt-1">
+<span class="material-symbols-outlined text-[24px]">psychiatry</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Alkolsüz Alternatif</span>
+<h4 class="font-headline-sm text-headline-sm text-primary">Botanik Damıtım &amp; Fermente Çay Eşleşmesi (₺1.800)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-2xl leading-relaxed">
+              Alkol tüketmeyen konuklarımız için miksoloji laboratuvarımızda hazırlanan soğuk demleme nadir oolong çayları, fermente yabani meyve ekstraktları ve distile botanik hidrosollerden oluşan 7 aşamalı alkolsüz degüstasyon kurgusu.
+            </p>
+</div>
+</div>
+<div class="shrink-0">
+<span class="inline-flex items-center gap-2 bg-surface text-primary px-space-md py-2.5 rounded-lg font-label-lg text-label-lg uppercase tracking-wider shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span>Talep Üzerine Hazırlanır</span>
+</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Reservation Section (Desktop Concierge Booking Engine) -->
+<section class="w-full py-space-xl bg-surface-container-low scroll-mt-24" id="rezervasyon-alani">
+<div class="max-w-5xl mx-auto px-margin md:px-margin-md lg:px-margin-lg">
+<div class="bg-surface rounded-xl shadow-2xl overflow-hidden p-space-md md:p-space-xl flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm pb-space-sm">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary">Marlot Kuruçeşme • Doğrudan Rezervasyon</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Degustasyon Masası Ayırın</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Tadım menüsü deneyimi her oturumda sınırlı sayıda misafir için hazırlanmaktadır.
+            </p>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm bg-surface-container-low px-3 py-1.5 rounded">
+<span class="material-symbols-outlined text-[18px] text-secondary">info</span>
+<span>İptal politikası: 48 saat öncesine kadar kesintisiz</span>
+</div>
+</div>
+<form class="flex flex-col gap-space-lg" id="degustasyon-booking-form" onsubmit="event.preventDefault(); handleBookingSubmit();">
+<!-- Step 1: Area Selection & Session Time -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Seating Area Choice -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">
+                Salon Tercihi
+              </label>
+<div class="grid grid-cols-2 gap-space-xs">
+<label class="cursor-pointer relative flex flex-col p-space-sm bg-surface-container-low rounded-lg transition-all hover:bg-surface-container has-[:checked]:bg-primary has-[:checked]:text-on-primary">
+<input checked="" class="sr-only peer" name="salon" type="radio" value="tadim-salonu"/>
+<span class="font-label-lg text-label-lg uppercase tracking-wider font-semibold">Tadım Salonu</span>
+<span class="font-body-sm text-body-sm opacity-80 mt-1">Loş kurgu, kav manzarası</span>
+</label>
+<label class="cursor-pointer relative flex flex-col p-space-sm bg-surface-container-low rounded-lg transition-all hover:bg-surface-container has-[:checked]:bg-primary has-[:checked]:text-on-primary">
+<input class="sr-only peer" name="salon" type="radio" value="bogaz-terasi"/>
+<span class="font-label-lg text-label-lg uppercase tracking-wider font-semibold">Boğaz Terası</span>
+<span class="font-body-sm text-body-sm opacity-80 mt-1">Isıtmalı yalı rıhtımı</span>
+</label>
+</div>
+</div>
+<!-- Seating Time Choice -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">
+                Oturum Seansı
+              </label>
+<div class="grid grid-cols-2 gap-space-xs">
+<label class="cursor-pointer relative flex flex-col p-space-sm bg-surface-container-low rounded-lg transition-all hover:bg-surface-container has-[:checked]:bg-primary has-[:checked]:text-on-primary">
+<input checked="" class="sr-only peer" name="seans" type="radio" value="19:30"/>
+<span class="font-headline-sm text-headline-sm">19:30</span>
+<span class="font-body-sm text-body-sm opacity-80">Birinci Seans • Akşamüzeri</span>
+</label>
+<label class="cursor-pointer relative flex flex-col p-space-sm bg-surface-container-low rounded-lg transition-all hover:bg-surface-container has-[:checked]:bg-primary has-[:checked]:text-on-primary">
+<input class="sr-only peer" name="seans" type="radio" value="21:00"/>
+<span class="font-headline-sm text-headline-sm">21:00</span>
+<span class="font-body-sm text-body-sm opacity-80">İkinci Seans • Gece Boğazı</span>
+</label>
+</div>
+</div>
+</div>
+<!-- Step 2: Date, Guest Count & Contact -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold" for="rez-tarih">Tarih</label>
+<input class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md px-space-sm py-2.5 rounded-lg outline-none focus:bg-surface focus:ring-1 focus:ring-secondary transition-all" id="rez-tarih" type="date" value="2024-11-28"/>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold" for="rez-kisi">Misafir Sayısı</label>
+<select class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md px-space-sm py-2.5 rounded-lg outline-none focus:bg-surface focus:ring-1 focus:ring-secondary transition-all" id="rez-kisi" onchange="recalculateTotal()">
+<option value="1">1 Kişi (Şef Masası)</option>
+<option selected="" value="2">2 Kişi</option>
+<option value="3">3 Kişi</option>
+<option value="4">4 Kişi</option>
+<option value="6">6 Kişi (Özel Salon)</option>
+</select>
+</div>
+<div class="flex flex-col gap-space-xs sm:col-span-2 lg:col-span-1">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold" for="rez-tel">İletişim Numarası</label>
+<input class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md px-space-sm py-2.5 rounded-lg outline-none focus:bg-surface focus:ring-1 focus:ring-secondary transition-all" id="rez-tel" placeholder="+90 532 000 00 00" required="" type="tel"/>
+</div>
+</div>
+<!-- Step 3: Pairing Options Toggle Cards -->
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">Küratörlü Kadeh Eşleşmesi Tercihi</span>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-xs">
+<label class="cursor-pointer relative flex flex-col p-space-sm bg-surface-container-low rounded-lg transition-all hover:bg-surface-container has-[:checked]:bg-primary-container has-[:checked]:text-on-primary">
+<input checked="" class="sr-only peer" name="eslesme" onchange="recalculateTotal()" type="radio" value="grand-cru"/>
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md uppercase tracking-wider font-semibold">Grand Cru Şarap</span>
+<span class="font-body-sm text-body-sm font-bold text-secondary">+₺3.400 / kişi</span>
+</div>
+<span class="font-body-sm text-body-sm opacity-80 mt-1">Margaux, Puligny-Montrachet, d'Yquem</span>
+</label>
+<label class="cursor-pointer relative flex flex-col p-space-sm bg-surface-container-low rounded-lg transition-all hover:bg-surface-container has-[:checked]:bg-primary-container has-[:checked]:text-on-primary">
+<input class="sr-only peer" name="eslesme" onchange="recalculateTotal()" type="radio" value="botanik"/>
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md uppercase tracking-wider font-semibold">Botanik Alkolsüz</span>
+<span class="font-body-sm text-body-sm font-bold text-secondary">+₺1.800 / kişi</span>
+</div>
+<span class="font-body-sm text-body-sm opacity-80 mt-1">Distile hidrosol &amp; soğuk çaylar</span>
+</label>
+<label class="cursor-pointer relative flex flex-col p-space-sm bg-surface-container-low rounded-lg transition-all hover:bg-surface-container has-[:checked]:bg-primary-container has-[:checked]:text-on-primary">
+<input class="sr-only peer" name="eslesme" onchange="recalculateTotal()" type="radio" value="yok"/>
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md uppercase tracking-wider font-semibold">Eşleşmesiz</span>
+<span class="font-body-sm text-body-sm opacity-70">₺0</span>
+</div>
+<span class="font-body-sm text-body-sm opacity-80 mt-1">Kav listesinden kadeh/şişe seçimi</span>
+</label>
+</div>
+</div>
+<!-- Dietary & Allergen Note -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold" for="rez-alerjen">Alerjen &amp; Diyet Tercihleri (Opsiyonel)</label>
+<input class="w-full bg-surface-container-low text-on-surface font-body-sm text-body-sm px-space-sm py-2 rounded-lg outline-none focus:bg-surface focus:ring-1 focus:ring-secondary transition-all" id="rez-alerjen" placeholder="Kabuklu deniz ürünü, glüten, laktoz vb. özel hassasiyetler" type="text"/>
+</div>
+<!-- Price Summary & Submission Bar -->
+<div class="p-space-md bg-surface-container rounded-xl flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex flex-col text-center md:text-left">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">Öngörülen Toplam Tutar (KDV Dahil)</span>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-display text-headline-lg text-primary font-bold" id="rez-total-price">₺16.500</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" id="rez-total-desc">(2 Misafir • Menü + Grand Cru)</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm w-full md:w-auto">
+<button class="w-full md:w-auto inline-flex items-center justify-center gap-space-sm bg-primary text-on-primary hover:bg-primary-container px-space-xl py-3.5 rounded-lg font-label-lg text-label-lg uppercase tracking-wider shadow-lg transition-all" type="submit">
+<span>Talebi İlet • Konsiyerj Onayı</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</form>
+<div class="hidden p-space-md bg-surface-container-high rounded-lg text-center animate-fade-in" id="booking-confirmation-banner">
+<span class="material-symbols-outlined text-secondary text-[32px] block mb-1">mark_email_read</span>
+<span class="font-headline-sm text-headline-sm text-primary block">Talebiniz Başarıyla Alındı</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Konsiyerj ekibimiz rezervasyon detaylarınızı doğrulamak için 15 dakika içerisinde telefon numaranızdan sizinle iletişime geçecektir.
+          </p>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- Inline Interactive Script for Degustation Timeline & Dynamic Calculator -->
+<script>
+  function focusCourse(courseNumber) {
+    const target = document.getElementById('course-card-' + courseNumber);
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    const pills = document.querySelectorAll('.course-nav-pill');
+    pills.forEach((pill, idx) => {
+      if (idx + 1 === courseNumber) {
+        pill.classList.remove('text-on-surface-variant');
+        pill.classList.add('bg-primary', 'text-on-primary');
+      } else {
+        pill.classList.remove('bg-primary', 'text-on-primary');
+        pill.classList.add('text-on-surface-variant');
+      }
+    });
+  }
+
+  function recalculateTotal() {
+    const guests = parseInt(document.getElementById('rez-kisi').value, 10);
+    const pairingElements = document.getElementsByName('eslesme');
+    let pairingPrice = 0;
+    let pairingLabel = "Eşleşmesiz";
+
+    for (const elem of pairingElements) {
+      if (elem.checked) {
+        if (elem.value === 'grand-cru') {
+          pairingPrice = 3400;
+          pairingLabel = "Menü + Grand Cru";
+        } else if (elem.value === 'botanik') {
+          pairingPrice = 1800;
+          pairingLabel = "Menü + Botanik";
+        } else {
+          pairingPrice = 0;
+          pairingLabel = "Yalnızca Menü";
+        }
+        break;
+      }
+    }
+
+    const baseMenuPrice = 4850;
+    const perPerson = baseMenuPrice + pairingPrice;
+    const total = perPerson * guests;
+
+    const formatted = new Intl.NumberFormat('tr-TR', { style: 'currency', currency: 'TRY', maximumFractionDigits: 0 }).format(total);
+    
+    document.getElementById('rez-total-price').innerText = formatted;
+    document.getElementById('rez-total-desc').innerText = `(${guests} Misafir • ${pairingLabel})`;
+  }
+
+  function handleBookingSubmit() {
+    const banner = document.getElementById('booking-confirmation-banner');
+    if (banner) {
+      banner.classList.remove('hidden');
+      banner.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  }
+</script></main><footer class="w-full bg-surface-container-low text-on-surface pt-space-xl pb-space-lg"><div class="max-w-7xl mx-auto px-margin md:px-margin-md lg:px-margin-lg flex flex-col gap-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter-lg"><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">MARLOT</span><span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest mb-space-xs">Kuruçeşme Yalı Gastronomisi</span><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Boğaz hattında, 19. yüzyıl yalı mimarisi içerisinde çağdaş Türk mutfağı ve küratörlü şarap seçkisi sunan haute-culinary gastronomi durağı.</p><div class="flex items-center gap-space-md mt-space-sm"><div class="flex flex-col"><span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Michelin Guide</span><span class="font-body-sm text-body-sm text-on-surface font-medium">Selected 2024</span></div><div class="h-6 w-[1px] bg-outline-variant"></div><div class="flex flex-col"><span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Gault &amp; Millau</span><span class="font-body-sm text-body-sm text-on-surface font-medium">3 Toques • 2024</span></div></div></div><div class="flex flex-col gap-space-sm"><h4 class="font-label-lg text-label-lg uppercase text-primary tracking-widest">Çalışma Saatleri</h4><div class="flex flex-col gap-space-xs text-body-sm font-body-sm text-on-surface-variant"><div class="flex justify-between"><span>Salı – Cuma</span><span class="text-on-surface font-medium">18:30 – 01:00</span></div><div class="flex justify-between"><span>Cumartesi – Pazar</span><span class="text-on-surface font-medium">13:00 – 01:30</span></div><div class="flex justify-between"><span>Pazartesi</span><span class="text-secondary font-medium">Kav Bakımı / Kapalı</span></div></div><div class="mt-space-sm p-space-sm bg-surface-container rounded-lg"><span class="font-label-sm text-label-sm uppercase text-secondary block mb-space-xs">Degüstasyon Seansları</span><p class="font-body-sm text-body-sm text-on-surface-variant">İlk Oturum: 19:00 • İkinci Oturum: 21:45</p></div></div><div class="flex flex-col gap-space-sm"><h4 class="font-label-lg text-label-lg uppercase text-primary tracking-widest">Konum &amp; Vale</h4><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Muallim Naci Caddesi No: 84<br/>Kuruçeşme, Beşiktaş, İstanbul</p><div class="flex flex-col gap-space-xs text-body-sm font-body-sm mt-space-xs"><span class="text-on-surface font-medium">Özel Deniz İskelesi &amp; Vale Servisi</span><span class="text-on-surface-variant">Tekne yanaşma rezervasyonu için konsiyerj ile iletişime geçiniz.</span></div><a class="font-body-md text-body-md text-primary font-medium mt-space-xs" href="tel:+902122874000">+90 212 287 40 00</a></div><div class="flex flex-col gap-space-sm"><h4 class="font-label-lg text-label-lg uppercase text-primary tracking-widest">Marlot Kav Kulübü</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Nadir rekolteler, mahzen tadımları ve şef masası davetleri için özel bültenimize kaydolun.</p><div class="flex flex-col gap-space-xs mt-space-xs"><div class="flex"><input class="w-full bg-surface text-on-surface font-body-sm text-body-sm px-space-sm py-2 rounded-l-lg outline-none focus:ring-1 focus:ring-secondary placeholder:text-outline-variant" placeholder="E-posta adresiniz" type="email"/><button class="bg-primary text-on-primary hover:bg-primary-container px-space-md py-2 rounded-r-lg font-label-md text-label-md uppercase tracking-wider transition-colors" type="button">Kayıt</button></div><span class="font-label-sm text-label-sm text-on-surface-variant">Yalnızca ayda bir editoryal seçki iletilir.</span></div></div></div><div class="pt-space-md border-t border-surface-container-high flex flex-col md:flex-row items-center justify-between gap-space-sm text-on-surface-variant font-body-sm text-body-sm"><span>© 2024 Marlot Kuruçeşme Gastronomi A.Ş. Tüm hakları saklıdır.</span><div class="flex items-center gap-space-md font-label-sm text-label-sm uppercase tracking-wider"><a class="hover:text-primary transition-colors" data-path="gizlilik-politikasi" href="#">Gizlilik Politikası</a><span>•</span><a class="hover:text-primary transition-colors" data-path="rezervasyon-kosullari" href="#">Rezervasyon Koşulları</a><span>•</span><a class="hover:text-primary transition-colors" data-path="kiyafeti-adabi" href="#">Kıyafet Âdabı</a></div></div></div></footer></body></html>
